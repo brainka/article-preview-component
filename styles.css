@@ -124,7 +124,7 @@ button {
 	align-self: center;
 }
 
-button.icon:hover {
+button.icon.desktop-active {
 	color: var(--color-white);
 	background-color: var(--color-desaturated-dark-blue);
 }
@@ -248,7 +248,7 @@ h2 {
 		border-bottom-right-radius: 1rem;
 		justify-content: space-between;
 		position: unset;
-		padding: 0 3rem;
+		padding: 0 3.2rem;
 	}
 
 	.drawers-image {
@@ -270,10 +270,10 @@ h2 {
 		display: none;
 	}
 
-	/* button {
+	button.mobile-active {
 		color: var(--color-white);
 		background-color: var(--color-grayish-blue);
-	} */
+	}
 
 	.icon {
 		order: 1;

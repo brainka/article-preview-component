@@ -7,6 +7,8 @@ const iconContainer = document.querySelector('.icon-container');
 const articleBottom = document.querySelector('.article-bottom');
 
 function handleShareButtonClick() {
+	shareButton.classList.toggle('desktop-active');
+	shareButton.classList.toggle('mobile-active');
 	socialMediaPopUp.classList.toggle('hidden');
 	socialMediaPopUp.classList.toggle('move');
 	authorContainerLeft.classList.toggle('hidden-mobile');
