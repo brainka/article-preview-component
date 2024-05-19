@@ -69,6 +69,7 @@ main {
 
 .article-top > h1 {
 	font-size: 2rem;
+	line-height: 2.8rem;
 	letter-spacing: 0.025rem;
 	color: var(--color-very-dark-grayish-blue);
 }
