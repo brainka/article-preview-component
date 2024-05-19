@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Article preview component</title>
+		<!-- add the favicon - which appears on browser tab as a logo -->
+
+		<link rel="icon" href="/images/favicon-32x32.png" />
+		<!-- link to css -->
+		<link rel="stylesheet" href="styles.css" />
+
+		<!-- google fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<main>
+			<img
+				class="drawers-image"
+				src="/images/drawers.jpg"
+				alt="A room with a green dresser"
+			/>
+			<div class="article-container">
+				<div class="article-top">
+					<h1>
+						Shift the overall look and feel by adding these wonderful touches to
+						furniture in your home
+					</h1>
+					<p>
+						Ever been in a room and felt like something was missing? Perhaps it
+						felt slightly bare and uninviting. I’ve got some simple tips to help
+						you make any room feel complete.
+					</p>
+				</div>
+				<div class="article-bottom">
+					<div class="author-container-left">
+						<img
+							class="author-image"
+							src="/images/avatar-michelle.jpg"
+							alt="Brown haired woman smiling"
+						/>
+						<div class="author-information">
+							<p>Michelle Appleton</p>
+							<time class="date" datetime="2020-06-28">28 Jun 2020</time>
+						</div>
+					</div>
+					<div class="icon-container">
+						<button class="icon" aria-label="Share">
+							<svg
+								aria-hidden="true"
+								xmlns="http://www.w3.org/2000/svg"
+								width="15"
+								height="13"
+							>
+								<path
+									fill="currentColor"
+									d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"
+								/>
+							</svg>
+						</button>
+
+						<div class="social-media">
+							<h2>share</h2>
+							<div class="social-media-links">
+								<img src="/images/icon-facebook.svg" alt="facebook icon" />
+								<img src="/images/icon-twitter.svg" alt="twitter icon" />
+								<img src="/images/icon-pinterest.svg" alt="pintrest icon" />
+							</div>
+							<div class="arrow-down"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script src="index.js"></script>
+	</body>
+</html>
