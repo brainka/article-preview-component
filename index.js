@@ -6,4 +6,4 @@ function handleShareButtonClick() {
 }
 
 shareButton.addEventListener('click', handleShareButtonClick);
-shareButton.addEventListener('touchend', handleShareButtonClick);
+shareButton.addEventListener('touchstart', handleShareButtonClick);
