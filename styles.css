@@ -173,7 +173,10 @@ h2 {
 	bottom: 6rem;
 	right: -10.4rem;
 
-	/* display: none; */
+}
+
+.hidden {
+	display: none;
 }
 
 .social-media-links {
@@ -248,7 +251,6 @@ h2 {
 
 		display: flex;
 		align-items: center;
-		/* width: max-content; */
 	}
 
 	button {
